@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function UserInfo(props) {
     const { userDetails } = props;
+    console.log(userDetails)
 
     return(
         <div>
